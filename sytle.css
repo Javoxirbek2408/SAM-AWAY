@@ -1,0 +1,199 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.container .saidbar {
+  width: 100px;
+  max-height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding-top: 20px;
+}
+.container .saidbar a img {
+  padding-top: 20px;
+}
+.container .parent {
+  width: 100%;
+  background-color: #232323;
+}
+.container .parent .header {
+  height: 540px;
+  padding: 24px 46px;
+  background: no-repeat;
+  background-image: url(./asete/imgs/fallback-img.png);
+  background-size: 100%;
+}
+.container .parent .header h1 {
+  margin-top: 20px;
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+}
+.container .parent .header .header-span {
+  margin-top: 10px;
+  color: #747474;
+  font-size: 14px;
+  font-weight: 400;
+}
+.container .parent .header .hp {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+}
+.container .parent .header .hp2 {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+}
+.container .parent .header .header-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  color: white;
+  letter-spacing: 2px;
+  padding: 25px 80px;
+  margin: 0 auto;
+  gap: 12px;
+  margin-top: 50px;
+  max-width: 155px;
+  padding: 15px;
+  color: red;
+  border: 2px solid red;
+  background: transparent;
+  border-radius: 24px;
+}
+.container .parent .header .btn {
+  border-radius: 20px;
+}
+.container .parent .header .header-btn:hover {
+  box-shadow: 0 4px #ff0000;
+  top: 2px;
+}
+.container .parent .header .header-btn:active {
+  box-shadow: none;
+  top: 6px;
+}
+.container .parent h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 50px 120px;
+}
+.container .parent main .maint-top {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 44px;
+}
+.container .parent main .maint-top .top-left,
+.container .parent main .maint-top .top-right {
+  display: flex;
+  gap: 22px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .parent main .maint-top .top-left #img1,
+.container .parent main .maint-top .top-right #img1 {
+  transition: 0.5s all ease-in-out;
+}
+.container .parent main .maint-top .top-left #img1:hover,
+.container .parent main .maint-top .top-right #img1:hover {
+  transform: scale(1.2);
+  width: 200px;
+}
+.container .parent footer {
+  display: flex;
+  width: 100%;
+  background: black;
+  margin-top: 130px;
+}
+.container .parent footer .foter-left {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-left: 120px;
+}
+.container .parent footer .foter-left .foter-left__p1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-left: -35px;
+  color: #fff;
+}
+.container .parent footer .foter-left .foter-left__p2 {
+  font-size: 15px;
+  font-weight: 300;
+  color: gray;
+  margin-top: 22px;
+  margin-left: -35px;
+}
+.container .parent footer .foter-left form {
+  display: flex;
+  margin-left: -35px;
+  gap: 22px;
+  margin-top: 46px;
+}
+.container .parent footer .foter-left form #email {
+  background: transparent;
+  width: 200px;
+  border: none;
+  border-bottom: solid 2px gray;
+  color: gray;
+  cursor: pointer;
+  outline: none;
+}
+.container .parent footer .foter-left form .fot-btn {
+  background: transparent;
+  cursor: pointer;
+  border: 2px solid gray;
+  color: gray;
+  border-radius: 12px;
+  padding: 4px 24px;
+  transition: 0.5s all ease-in-out;
+}
+.container .parent footer .foter-left form .fot-btn:hover {
+  background: #111111;
+  transform: scale(1.2);
+}
+.container .parent footer img {
+  width: 500px;
+  height: 400px;
+  margin-right: -5px;
+}
+
+@media (max-width: 800px) {
+  main .top-left {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  main .top-right {
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  footer {
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  footer img {
+    display: none;
+    margin-bottom: 40px;
+  }
+}/*# sourceMappingURL=sytle.css.map */
